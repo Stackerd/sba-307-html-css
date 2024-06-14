@@ -1,0 +1,39 @@
+body {
+    width: 50%;
+    /* margin-left: 60px;
+    margin-right: 10px; */
+}
+
+img {
+    height: 10%;
+    width: 20%;
+}
+
+.box1 {
+    background-color: rgb(187, 186, 186);
+    width: 100%;
+    border: solid 5px rgb(1, 13, 1);
+    text-align: center;
+}
+.box2 {
+    
+    background-color: rgb(220, 223, 212);
+    width: 100%;
+    border: solid 5px rgb(75, 77, 75);
+    text-align: center;
+}
+.box3 {
+    width: 100%;
+    background-color: burlywood;
+    border: solid 5px rgb(76, 79, 76);
+    text-align: center;
+    
+}
+.box4 { 
+    width: 100%;
+    background-color: rgb(114, 114, 111);
+    width: 100%;
+    border: solid 5px rgb(138, 153, 138);
+    text-align: center;
+    
+}

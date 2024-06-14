@@ -1,0 +1,11 @@
+/* this was showing the box model */
+p {
+    padding: 70px;
+    border: 5px dotted green;
+    width: 150px;
+    margin: 50px;
+}
+
+body {
+    background-color: darkslategrey;
+}

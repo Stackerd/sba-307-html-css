@@ -1,0 +1,170 @@
+.gif {
+    text-align: right;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d04444;
+}
+
+.navitems {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.navitems:last-child {
+    border-right: none;
+}
+
+.navitems a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitems a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #3304aa;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+.title {
+    color: green;
+    text-align: center;
+}
+
+.label {
+    color: green;
+}
+
+.welcome {
+    color: green;
+    text-align: center;
+
+}
+
+table {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border: 5px solid green;
+}
+
+th,
+td {
+    border: 1px solid red;
+}
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+th {
+    text-align: right;
+}
+
+td:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.topics {
+    color: green;
+    text-align: center;
+}
+
+.image {
+    text-align: left;
+
+}
+
+button {
+    background-color: rgb(97, 220, 179);
+    padding: 10px 15px;
+
+}
+
+li {
+
+    display: block;
+    color: #f3ebeb;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #bbb;
+}
+
+.content {
+    background-color: #bbb;
+    min-width: 100px;
+}
+
+body {
+    background-color: rgb(227, 184, 184)
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+/* The animation code */
+@keyframes drive {
+    from {
+        transform: translateX (0);
+    }
+
+    to {
+        transform: translateY(700px);
+    }
+}
+
+/* The element to apply the animation to */
+.image {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    animation-name: drive;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+@keyframes drive {
+    from {
+        transform: translateY (0);
+    }
+
+    to {
+        transform: translateX(700px);
+    }
+}
+
+/* The element to apply the animation to */
+.computerGuy {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    animation-name: drive;
+    animation-duration: 3s;
+}
