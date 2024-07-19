@@ -21,4 +21,5 @@ const h1clone = h1.cloneNode();
 fragment.appendChild(h1clone)
 h1.addEventListener('click', function() {
     h1.innerText = 'ALREADY LEARNED'
+    alert('Header Clicked')
 })
